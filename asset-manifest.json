@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Solfest-Unofficial-React/static/css/main.b21c0615.css",
-    "main.js": "/Solfest-Unofficial-React/static/js/main.083f8734.js",
+    "main.css": "/Solfest-Unofficial-React/static/css/main.6b944f7d.css",
+    "main.js": "/Solfest-Unofficial-React/static/js/main.46eb379f.js",
     "static/js/787.4c12d20a.chunk.js": "/Solfest-Unofficial-React/static/js/787.4c12d20a.chunk.js",
     "static/media/map_v2_4x.png": "/Solfest-Unofficial-React/static/media/map_v2_4x.6cefde82a547d19d21c0.png",
     "static/media/background.mp4": "/Solfest-Unofficial-React/static/media/background.b9ae1e67dc89c5bfe6f2.mp4",
@@ -14,12 +14,12 @@
     "static/media/MrDafoe-Regular.ttf": "/Solfest-Unofficial-React/static/media/MrDafoe-Regular.1b1b9121d38dfc09babf.ttf",
     "static/media/Pacifica Condensed Regular.otf": "/Solfest-Unofficial-React/static/media/Pacifica Condensed Regular.e5347c166cbf1a10fd0b.otf",
     "index.html": "/Solfest-Unofficial-React/index.html",
-    "main.b21c0615.css.map": "/Solfest-Unofficial-React/static/css/main.b21c0615.css.map",
-    "main.083f8734.js.map": "/Solfest-Unofficial-React/static/js/main.083f8734.js.map",
+    "main.6b944f7d.css.map": "/Solfest-Unofficial-React/static/css/main.6b944f7d.css.map",
+    "main.46eb379f.js.map": "/Solfest-Unofficial-React/static/js/main.46eb379f.js.map",
     "787.4c12d20a.chunk.js.map": "/Solfest-Unofficial-React/static/js/787.4c12d20a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b21c0615.css",
-    "static/js/main.083f8734.js"
+    "static/css/main.6b944f7d.css",
+    "static/js/main.46eb379f.js"
   ]
 }
