@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Solfest-Unofficial-React/static/css/main.b21c0615.css",
+    "main.js": "/Solfest-Unofficial-React/static/js/main.cee1cad2.js",
+    "static/js/787.4c12d20a.chunk.js": "/Solfest-Unofficial-React/static/js/787.4c12d20a.chunk.js",
+    "static/media/map_v2_4x.png": "/Solfest-Unofficial-React/static/media/map_v2_4x.6cefde82a547d19d21c0.png",
+    "static/media/background.mp4": "/Solfest-Unofficial-React/static/media/background.b9ae1e67dc89c5bfe6f2.mp4",
+    "static/media/lineup_sunday_4x.jpg": "/Solfest-Unofficial-React/static/media/lineup_sunday_4x.f8585c18147f58a9a0fd.jpg",
+    "static/media/lineup_thursday_4x.jpg": "/Solfest-Unofficial-React/static/media/lineup_thursday_4x.01d312bf316afb7923a1.jpg",
+    "static/media/lineup_friday_4x.jpg": "/Solfest-Unofficial-React/static/media/lineup_friday_4x.e068a9ee98e914634027.jpg",
+    "static/media/lineup_saturday_2x.jpg": "/Solfest-Unofficial-React/static/media/lineup_saturday_2x.af4878ba87939a88b8c7.jpg",
+    "static/media/logotest.png": "/Solfest-Unofficial-React/static/media/logotest.5e1927fcabdcec019284.png",
+    "static/media/Audiowide-Regular.ttf": "/Solfest-Unofficial-React/static/media/Audiowide-Regular.909342598b3adb03b2e6.ttf",
+    "static/media/MrDafoe-Regular.ttf": "/Solfest-Unofficial-React/static/media/MrDafoe-Regular.1b1b9121d38dfc09babf.ttf",
+    "static/media/Pacifica Condensed Regular.otf": "/Solfest-Unofficial-React/static/media/Pacifica Condensed Regular.e5347c166cbf1a10fd0b.otf",
+    "index.html": "/Solfest-Unofficial-React/index.html",
+    "main.b21c0615.css.map": "/Solfest-Unofficial-React/static/css/main.b21c0615.css.map",
+    "main.cee1cad2.js.map": "/Solfest-Unofficial-React/static/js/main.cee1cad2.js.map",
+    "787.4c12d20a.chunk.js.map": "/Solfest-Unofficial-React/static/js/787.4c12d20a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b21c0615.css",
+    "static/js/main.cee1cad2.js"
+  ]
+}
