@@ -2,7 +2,6 @@ import { Outlet, NavLink } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import MapIcon from "@mui/icons-material/Map";
-import { useState } from "react";
 
 const Layout = () => {
   return (

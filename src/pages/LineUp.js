@@ -10,17 +10,11 @@ function LineUp() {
   const [lineupDay, setLineupDay] = useState(thursday);
   const [activeDay, setActiveDay] = useState(0);
   
-  const returnActive = () => {
-    if(lineupDay === thursday) {
-        return
-    }
-  }
-
   return (
     <div className="lineup">
       <TransformWrapper>
         <TransformComponent>
-          <img src={lineupDay} />
+          <img src={lineupDay} alt="lineup image" />
         </TransformComponent>
       </TransformWrapper>
       <ul>
@@ -29,7 +23,7 @@ function LineUp() {
             setLineupDay(thursday)
             setActiveDay(0)
           }}
-          className={activeDay == 0 ? "active" : ""}
+          className={activeDay === 0 ? "active" : ""}
           >Thurs</a>
         </li>
         <li>
@@ -37,7 +31,7 @@ function LineUp() {
             setLineupDay(friday)
             setActiveDay(1)
           }}
-          className={activeDay == 1 ? "active" : ""}
+          className={activeDay === 1 ? "active" : ""}
           >Fri</a>
         </li>
         <li>
@@ -45,7 +39,7 @@ function LineUp() {
             setLineupDay(saturday)
             setActiveDay(2)
           }}
-          className={activeDay == 2 ? "active" : ""}
+          className={activeDay === 2 ? "active" : ""}
           >Sat</a>
         </li>
         <li>
@@ -53,7 +47,7 @@ function LineUp() {
             setLineupDay(sunday)
             setActiveDay(3)
           }}
-          className={activeDay == 3 ? "active" : ""}
+          className={activeDay === 3 ? "active" : ""}
           >Sun</a>
         </li>
       </ul>
