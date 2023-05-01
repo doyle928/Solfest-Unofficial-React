@@ -25,11 +25,11 @@
   overflow: hidden;
 }
 video {
-  position: absolute;
+  position: fixed;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  height: 120%;
+  height: 120vh;
   z-index: -100;
   overflow: hidden;
 }
