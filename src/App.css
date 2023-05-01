@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Retro";
-  src: url('./assets/MrDafoe-Regular.ttf') format('truetype');
+  src: url("./assets/MrDafoe-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Year";
-  src: url('./assets/Audiowide-Regular.ttf') format('truetype');
+  src: url("./assets/Audiowide-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "Pacifica";
-  src: url('./assets/fonts/Pacifica Condensed Regular.otf') format('opentype');
+  src: url("./assets/fonts/Pacifica Condensed Regular.otf") format("opentype");
 }
 * {
   overflow: hidden !important;
@@ -43,7 +43,7 @@ video {
   z-index: -99;
 }
 nav {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -56,6 +56,7 @@ nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  width: 100vw;
 }
 nav > ul > li {
   width: 33%;
@@ -77,11 +78,11 @@ nav > ul > li > a > p {
   font-size: 16px;
   padding: 0;
   margin: 0;
-  font-family: 'Pacifica', Fallback, sans-serif;
+  font-family: "Pacifica", Fallback, sans-serif;
   font-weight: 700;
 }
 .active {
-  color:#F56476 !important;
+  color: #f56476 !important;
 }
 #logo {
   width: 100%;
@@ -99,8 +100,13 @@ nav > ul > li > a > p {
   color: white;
   font-size: 24px;
   margin: 3px 0 10px;
-  font-family: 'Pacifica', Fallback, sans-serif;
+  font-family: "Pacifica", Fallback, sans-serif;
   font-weight: 700;
+}
+.map {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .map img {
   width: 100%;
@@ -108,19 +114,20 @@ nav > ul > li > a > p {
 }
 .lineup {
   position: absolute;
+  height: 100vh;
 }
 .lineup img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  width: 100vw;
+  height: 80vh;
+  object-fit: contain;
 }
 .lineup ul {
   display: flex;
   flex-direction: row;
-  position: fixed;
+  position: absolute;
   justify-content: space-between;
   margin: 0;
-  width: 100%;
+  width: 100vw;
   padding: 5px 0;
   flex-wrap: wrap;
   list-style-type: none;
@@ -133,7 +140,7 @@ nav > ul > li > a > p {
   text-align: center;
 }
 .lineup ul li a {
-  font-family: 'Pacifica', Fallback, sans-serif;
+  font-family: "Pacifica", Fallback, sans-serif;
   color: #fff;
   font-size: 24px;
   text-align: center;
