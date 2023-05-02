@@ -19,7 +19,7 @@ function LineUp(props) {
           <img src={lineupDay} alt="lineup image" />
         </TransformComponent>
       </TransformWrapper>
-      <ul style={{bottom: `${props.height}px`}}>
+      <ul style={{bottom: `${props.height - 1}px`}}>
         <li
           onClick={() => {
             setLineupDay(thursday);

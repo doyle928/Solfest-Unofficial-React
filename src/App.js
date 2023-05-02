@@ -11,10 +11,6 @@ import backgroundVideo from "./assets/background.mp4";
 function App() {
   const [height, setHeightNav] = useState(0);
   
-  const heightNav = (x) =>{
-    setHeightNav(x)
-  }
-
   return (
     <div className="App">
       <div>
