@@ -1,3 +1,4 @@
+import React from "react";
 import logo from '../assets/logotest.png';
 
 function Home(){

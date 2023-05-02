@@ -1,4 +1,5 @@
 import "./App.css";
+import React, { useState, useEffect, useRef } from "react";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
@@ -8,6 +9,12 @@ import Map from "./pages/Map";
 import backgroundVideo from "./assets/background.mp4";
 
 function App() {
+  const [height, setHeightNav] = useState(0);
+  
+  const heightNav = (x) =>{
+    setHeightNav(x)
+  }
+
   return (
     <div className="App">
       <div>
@@ -19,9 +26,9 @@ function App() {
 
       <HashRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Layout setHeightNav={setHeightNav} />}>
             <Route index element={<Home />} />
-            <Route path="lineup" element={<LineUp />} />
+            <Route path="lineup" element={<LineUp height={height} />} />
             <Route path="map" element={<Map />} />
           </Route>
         </Routes>

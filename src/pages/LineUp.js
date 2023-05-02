@@ -1,14 +1,16 @@
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
-import { useState } from "react";
+import React, { useState } from "react";
 
 import thursday from "../assets/lineup_thursday_4x.jpg";
 import friday from "../assets/lineup_friday_4x.jpg";
 import saturday from "../assets/lineup_saturday_2x.jpg";
 import sunday from "../assets/lineup_sunday_4x.jpg";
 
-function LineUp() {
+function LineUp(props) {
   const [lineupDay, setLineupDay] = useState(thursday);
   const [activeDay, setActiveDay] = useState(0);
+
+  console.log(props.height)
 
   return (
     <div className="lineup">
@@ -17,7 +19,7 @@ function LineUp() {
           <img src={lineupDay} alt="lineup image" />
         </TransformComponent>
       </TransformWrapper>
-      <ul>
+      <ul style={{bottom: `${props.height}px`}}>
         <li
           onClick={() => {
             setLineupDay(thursday);
