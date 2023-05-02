@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9cf7016999ad58a42449",
-    "url": "/Solfest-Unofficial-React/static/css/main.87e7f67f.chunk.css"
+    "revision": "4109fd11f58a0ff59ac4",
+    "url": "/Solfest-Unofficial-React/static/css/main.09c2e1dd.chunk.css"
   },
   {
-    "revision": "9cf7016999ad58a42449",
-    "url": "/Solfest-Unofficial-React/static/js/main.9cf70169.chunk.js"
+    "revision": "4109fd11f58a0ff59ac4",
+    "url": "/Solfest-Unofficial-React/static/js/main.4109fd11.chunk.js"
   },
   {
     "revision": "6f6f4986655de22842af",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Solfest-Unofficial-React/static/media/Pacifica Condensed Regular.3ade0349.otf"
   },
   {
-    "revision": "d5d5156a1814b0f7b626a11422e30830",
+    "revision": "bb74b0ce012e7a31140acff0e10ecbe0",
     "url": "/Solfest-Unofficial-React/index.html"
   }
 ];
