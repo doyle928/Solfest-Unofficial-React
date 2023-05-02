@@ -10,7 +10,7 @@ function LineUp(props) {
   const [lineupDay, setLineupDay] = useState(thursday);
   const [activeDay, setActiveDay] = useState(0);
 
-  console.log(props.height)
+  console.log(props.height);
 
   return (
     <div className="lineup">
@@ -19,7 +19,8 @@ function LineUp(props) {
           <img src={lineupDay} alt="lineup image" />
         </TransformComponent>
       </TransformWrapper>
-      <ul style={{bottom: `${props.height - 5}px`}}>
+      {/* <ul style={{bottom: `${props.height - 5}px`}}> */}
+      <ul style={{ paddingBottom: `${props.height/'px' + 1}vw` }}>
         <li
           onClick={() => {
             setLineupDay(thursday);
