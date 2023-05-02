@@ -1,7 +1,7 @@
 {
   "main.css": "/Solfest-Unofficial-React/static/css/main.87e7f67f.chunk.css",
-  "main.js": "/Solfest-Unofficial-React/static/js/main.787dafb4.chunk.js",
-  "main.js.map": "/Solfest-Unofficial-React/static/js/main.787dafb4.chunk.js.map",
+  "main.js": "/Solfest-Unofficial-React/static/js/main.9cf70169.chunk.js",
+  "main.js.map": "/Solfest-Unofficial-React/static/js/main.9cf70169.chunk.js.map",
   "static/js/1.6f6f4986.chunk.js": "/Solfest-Unofficial-React/static/js/1.6f6f4986.chunk.js",
   "static/js/1.6f6f4986.chunk.js.map": "/Solfest-Unofficial-React/static/js/1.6f6f4986.chunk.js.map",
   "static/js/2.4c70b25b.chunk.js": "/Solfest-Unofficial-React/static/js/2.4c70b25b.chunk.js",
@@ -18,6 +18,6 @@
   "static/media/App.css": "/Solfest-Unofficial-React/static/media/Pacifica Condensed Regular.3ade0349.otf",
   "static/css/main.87e7f67f.chunk.css.map": "/Solfest-Unofficial-React/static/css/main.87e7f67f.chunk.css.map",
   "index.html": "/Solfest-Unofficial-React/index.html",
-  "precache-manifest.3ef3c30aa4cdc8f103a99560753ea736.js": "/Solfest-Unofficial-React/precache-manifest.3ef3c30aa4cdc8f103a99560753ea736.js",
+  "precache-manifest.3a87db4d31f827f279467f0a7c3e2e38.js": "/Solfest-Unofficial-React/precache-manifest.3a87db4d31f827f279467f0a7c3e2e38.js",
   "service-worker.js": "/Solfest-Unofficial-React/service-worker.js"
 }

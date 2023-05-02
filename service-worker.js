@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Solfest-Unofficial-React/precache-manifest.3ef3c30aa4cdc8f103a99560753ea736.js"
+  "/Solfest-Unofficial-React/precache-manifest.3a87db4d31f827f279467f0a7c3e2e38.js"
 );
 
 workbox.clientsClaim();
