@@ -42,6 +42,15 @@ video {
   background-color: rgba(0, 0, 0, 0.25);
   z-index: -99;
 }
+.background-img{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 120vh;
+  z-index: -101;
+  overflow: hidden;
+}
 nav {
   position: absolute;
   bottom: 0;

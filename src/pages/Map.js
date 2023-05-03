@@ -1,5 +1,5 @@
 import React from "react";
-import map from "../assets/map_v2_4x.png";
+import map from "../assets/map_new_4x.jpg";
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 function Map() {

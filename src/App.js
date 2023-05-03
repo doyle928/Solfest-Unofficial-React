@@ -7,6 +7,7 @@ import LineUp from "./pages/LineUp";
 import Map from "./pages/Map";
 
 import backgroundVideo from "./assets/background.mp4";
+import backgroundImage from "./assets/background.webp"
 
 function App() {
   const [height, setHeightNav] = useState(0);
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <div>
         <div className="overlay"></div>
+        <img src={backgroundImage}  className="background-img"/>
         <video autoPlay loop muted id="video">
           <source src={backgroundVideo} type="video/mp4" />
         </video>
