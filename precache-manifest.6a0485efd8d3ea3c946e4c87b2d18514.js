@@ -1,27 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "721bb2b02c22b29b1734",
-    "url": "/Solfest-Unofficial-React/static/css/main.8292af93.chunk.css"
+    "revision": "8de5753ac9d2af9986ff",
+    "url": "/Solfest-Unofficial-React/static/css/main.53fe1bd5.chunk.css"
   },
   {
-    "revision": "721bb2b02c22b29b1734",
-    "url": "/Solfest-Unofficial-React/static/js/main.721bb2b0.chunk.js"
+    "revision": "8de5753ac9d2af9986ff",
+    "url": "/Solfest-Unofficial-React/static/js/main.8de5753a.chunk.js"
   },
   {
-    "revision": "bfa17f515437437af62a",
-    "url": "/Solfest-Unofficial-React/static/js/1.bfa17f51.chunk.js"
+    "revision": "92bf2f06d2a0d81614c3",
+    "url": "/Solfest-Unofficial-React/static/js/1.92bf2f06.chunk.js"
   },
   {
-    "revision": "37b2adbd39a2b826d53e",
-    "url": "/Solfest-Unofficial-React/static/js/2.37b2adbd.chunk.js"
+    "revision": "0b96693b8c6b87b66857",
+    "url": "/Solfest-Unofficial-React/static/js/2.0b96693b.chunk.js"
   },
   {
-    "revision": "feb2f4ab3b775a6c6b67",
-    "url": "/Solfest-Unofficial-React/static/js/runtime~main.feb2f4ab.js"
+    "revision": "cac71b4ec67b694c2bc3",
+    "url": "/Solfest-Unofficial-React/static/js/runtime~main.cac71b4e.js"
   },
   {
     "revision": "6ad6b2e6d9dabe2b4f9247bc4a6ab0de",
     "url": "/Solfest-Unofficial-React/static/media/lineup_thursday_4x.6ad6b2e6.jpg"
+  },
+  {
+    "revision": "2d9155296f92a425da3347818dd65393",
+    "url": "/Solfest-Unofficial-React/static/media/events_friday.2d915529.png"
   },
   {
     "revision": "e078cf7604d360e2a1be820dea1b4f75",
@@ -44,12 +48,24 @@ self.__precacheManifest = [
     "url": "/Solfest-Unofficial-React/static/media/map_new_4x.b82bccf4.jpg"
   },
   {
+    "revision": "7bfe5e076ab97f5e9ab5586187f8cf9c",
+    "url": "/Solfest-Unofficial-React/static/media/events_saturday.7bfe5e07.png"
+  },
+  {
+    "revision": "1922c3beb6c0d55fe4bdd5e48626131e",
+    "url": "/Solfest-Unofficial-React/static/media/events_sunday.1922c3be.png"
+  },
+  {
     "revision": "b2232764041f02a3f4367fdd91c02f7a",
     "url": "/Solfest-Unofficial-React/static/media/background.b2232764.mp4"
   },
   {
     "revision": "fffe22f6946eb6df4f2f8a72bdd03c9f",
     "url": "/Solfest-Unofficial-React/static/media/background.fffe22f6.webp"
+  },
+  {
+    "revision": "e2bba9cf49b298d6be781c2274694ea3",
+    "url": "/Solfest-Unofficial-React/static/media/MrDafoe-Regular.e2bba9cf.ttf"
   },
   {
     "revision": "1035cee07ce8ec16a4e4f193517f1c4a",
@@ -60,11 +76,7 @@ self.__precacheManifest = [
     "url": "/Solfest-Unofficial-React/static/media/Pacifica Condensed Regular.3ade0349.otf"
   },
   {
-    "revision": "e2bba9cf49b298d6be781c2274694ea3",
-    "url": "/Solfest-Unofficial-React/static/media/MrDafoe-Regular.e2bba9cf.ttf"
-  },
-  {
-    "revision": "0f4eb9e3676183d415e9b3a98502ec62",
+    "revision": "37554d891f441a349add50fc80712c70",
     "url": "/Solfest-Unofficial-React/index.html"
   }
 ];
