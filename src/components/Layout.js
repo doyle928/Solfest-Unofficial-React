@@ -3,17 +3,18 @@ import { Outlet, NavLink } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import MapIcon from "@mui/icons-material/Map";
+import EventIcon from "@mui/icons-material/Event";
 
 const Layout = (props) => {
-  console.log(props)
+  console.log(props);
   const [height, setHeight] = useState(0);
   const ref = useRef(null);
 
   useEffect(() => {
     setHeight(ref.current.clientHeight);
-    console.log(ref.current.clientHeight)
-    props.setHeightNav(height)
-    console.log(props)
+    console.log(ref.current.clientHeight);
+    props.setHeightNav(height);
+    console.log(props);
   });
 
   return (
@@ -30,6 +31,12 @@ const Layout = (props) => {
             <NavLink to="/lineup">
               <AccessTimeIcon sx={{ fontSize: "5vw" }} />
               <p>Lineup</p>
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/events">
+              <EventIcon sx={{ fontSize: "5vw" }} />
+              <p>Events</p>
             </NavLink>
           </li>
           <li>

@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import LineUp from "./pages/LineUp";
 import Map from "./pages/Map";
+import Events from "./pages/Events"
 
 import backgroundVideo from "./assets/background.mp4";
 import backgroundImage from "./assets/background.webp"
@@ -28,6 +29,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="lineup" element={<LineUp height={height} />} />
             <Route path="map" element={<Map />} />
+            <Route path="events" element={<Events height={height} />} />
           </Route>
         </Routes>
       </HashRouter>

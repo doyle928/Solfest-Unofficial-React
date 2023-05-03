@@ -68,7 +68,7 @@ nav > ul {
   width: 100vw;
 }
 nav > ul > li {
-  width: 33%;
+  width: 25%;
   text-align: center;
   padding: 10px 0 10px 0;
 }
@@ -166,5 +166,46 @@ nav > ul > li > a > p {
   font-weight: 700;
 }
 .lineup > div > div {
+  height: 100vh;
+}
+
+.events {
+  position: absolute;
+  height: 100vh;
+}
+.events img {
+  width: 100vw;
+  height: 80vh;
+  object-fit: contain;
+}
+.events ul {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  margin: 0;
+  width: 100vw;
+  padding: 1vw 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background-color: #694fad;
+  /* height: 50px; */
+}
+.events ul li {
+  width: 33%;
+  text-align: center;
+  padding: 10px 0;
+}
+.events ul li a {
+  font-family: "Pacifica", Fallback, sans-serif;
+  color: #fff;
+  font-size: 5vw;
+  text-align: center;
+  /* -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke-color: #0A090C; */
+  font-weight: 700;
+}
+.events > div > div {
   height: 100vh;
 }
